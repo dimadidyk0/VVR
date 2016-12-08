@@ -135,7 +135,6 @@ a {
     padding-top: 331px;
     max-width: 2105px;
     margin: 0 auto;
-    width: 1734px;
     background-position: right top 25px;
 }
 .header__logo {
@@ -228,7 +227,7 @@ a {
     background-color: #121212;
     height: 526px;
     background-size: 907px 526px;
-    background-position: right 1px;
+    background-position: left 445px top 1px;
 }
 .cyber-text {
     font: 18px cinzelbold;
@@ -297,5 +296,5 @@ a {
     background-position: right -374px top 25px;
     width: auto;
 }
-
+}
 
