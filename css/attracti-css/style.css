@@ -1,0 +1,301 @@
+@font-face {    
+    font-family: 'globerboldru';
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.eot');
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/GloberBold.otf') format('truetype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.ttf') format('truetype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glober_regularregular';
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/glober_regular-webfont.eot');
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/GloberRegular.otf') format('truetype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/glober_regular-webfont.woff') format('woff'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/glober_regular-webfont.ttf') format('truetype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberRegular/glober_regular-webfont.svg#glober_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {    
+    font-family: 'globerbold';
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.eot');
+    src: url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.woff') format('woff'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.ttf') format('truetype'),
+    url('../../fonts/attracti-fonts/FONT/GloberWeb-fonts1/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cinzelblack';
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-black-webfont.eot');
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-black-webfont.woff2') format('woff2'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-black-webfont.woff') format('woff'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzelbold';
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-bold-webfont.eot');
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-bold-webfont.woff') format('woff'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-regular-webfont.eot');
+    src: url('../../fonts/attracti-fonts/cinzel/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-regular-webfont.woff') format('woff'),
+    url('../../fonts/attracti-fonts/cinzel/cinzel-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    position: relative;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    width: 1360px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+.header__container {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.header {
+    height: 540px;
+    background: url(../../img/attracti-img/bg-1-1.png) no-repeat;
+    background-size: 744px 758px;
+    padding-top: 331px;
+    max-width: 2105px;
+    margin: 0 auto;
+    width: 1734px;
+    background-position: right top 25px;
+}
+.header__logo {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url(../../img/attracti-img/logo.png) no-repeat;
+    height: 147px;
+    width: 840px;
+    background-size: cover;
+    margin: 0 auto 0;
+}
+.header__text {
+    text-align: center;
+    text-transform: uppercase;
+    font: 22px globerbold;
+    letter-spacing: 1.43px;
+    margin: 135px 0 0 0;
+    color: #52009A;
+}
+.solid-cube {
+    background: url(../../img/attracti-img/bg-2.png) no-repeat;
+    background-color: #00001D;
+    height: 425px;
+    background-size: 1365px 638px;
+    background-position: center top;
+    color: white;
+    font: 19px globerbold;
+    position: relative;
+    padding: 212px 0 0 0;
+}
+.solid-cube__block-1 {
+    float: left;
+    width: 463px;
+    display: inline-block;
+    text-align: right;
+}
+.solid-cube__logo--1 {
+    width: 100px;
+    height: 40px;
+    text-align: right;
+    display: inline-block;
+    background: url('../SOLID.png') no-repeat;
+}
+.solid-cube__logo--1 {
+    width: 186px;
+    height: 48px;
+    text-align: right;
+    display: inline-block;
+    background: url(../../img/attracti-img/SOLID.png) no-repeat;
+    background-size: cover;
+}
+.solid-cube__text--1 {
+    padding: 31px 8px 0 0;
+}
+.solid-cube__block-2 {
+    float: right;
+    text-align: left;
+    width: 472px;
+}
+.solid-cube__logo--2 {
+    width: 161px;
+    height: 48px;
+    text-align: right;
+    display: inline-block;
+    background: url(../../img/attracti-img/CUBE.png) no-repeat;
+    background-size: cover;
+}
+.solid-cube__text--2 {
+    margin: 31px 0 0 -2px;
+}
+.cyber {
+    background-color: #121212;
+    height: 524px;
+    position: relative;
+}
+.cyber__logo {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url(../../img/attracti-img/cyber-logo.png) no-repeat;
+    height: 125px;
+    width: 614px;
+    background-size: cover;
+    display: inline-block;
+    margin: 114px 0 0px 81px;
+}
+.cyber__container {
+    background: url(../../img/attracti-img/bg-3-1.png) no-repeat;
+    background-color: #121212;
+    height: 526px;
+    background-size: 907px 526px;
+    background-position: right 1px;
+}
+.cyber-text {
+    font: 18px cinzelbold;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin: -1px 0 0 90px;
+    font-weight: lighter;
+    color: #48EDF2;
+}
+.cyber-text:first-letter {
+    font-size: 20px;
+}
+.attracti-cards {
+    background: url(../../img/attracti-img/bg-5.png) no-repeat;
+    background-color: #2E0000;
+    height: 524px;
+    position: relative;
+    background-position: top center;
+}
+.footer {
+    height: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 240px 0 0 0;
+
+}
+.attracti-cards__card-block {
+    width: 100%;
+    height: 524px;
+    display: block;
+    background: url('../../img/attracti-img/CARDS.png');
+}
+.footer__text {
+    font: 22px globerboldru;
+    text-transform: uppercase;
+    color: #C5C5C5;
+    letter-spacing: 1.43px;
+    margin: 0 0 0 0;
+}
+.footer__tel {
+    font: 22px globerboldru;
+    text-transform: uppercase;
+    letter-spacing: 1.43px;
+    margin: 83px 0 0 0;
+}
+.footer__mail {
+    font: 17px glober_regularregular;
+    color: #8F8F8F;
+    display: block;
+    margin: 15px 0 0 0;
+}
+.main-links {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+@media screen and (max-width: 1359px) {
+  .container {
+    width: 100%;
+}
+.header {
+    background-position: right -374px top 25px;
+    width: auto;
+}
+
+
